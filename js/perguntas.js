@@ -1,1 +1,1 @@
-const perguntas = {}
+const perguntas = []
