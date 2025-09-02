@@ -38,7 +38,7 @@ const perguntas = [
     ]
   },
   {
-    enunciado: "pergunta 4"
+    enunciado: "pergunta 4",
     alternativas: [
       {
         texto: "nike",
