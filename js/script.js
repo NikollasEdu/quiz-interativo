@@ -13,13 +13,13 @@ let perguntaAtual;
 
 botaoIniciar.addEventListener('click', iniciaJogo);
 
-function iniciarJogo() {
-    atual = 0
-    telaInicial.style.display = 'nome';
-    caixaPerguntas.classList.remove(".mostrar");
-    caixaAlternativas.classList.remove(".mostrar");
-    caixaResultado.classList.remove(".mostrar");
-    mostraPergunta();
+function iniciaJogo() {
+  atual = 0
+  telaInicial.style.display = 'none';
+  caixaPerguntas.classList.remove(".mostrar");
+  caixaAlternativas.classList.remove(".mostrar");
+  caixaResultado.classList.remove(".mostrar");
+  mostraPergunta();
 }
 
 function mostraPergunta() {};
