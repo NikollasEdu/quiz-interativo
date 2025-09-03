@@ -15,7 +15,7 @@ botaoIniciar.addEventListener('click', iniciaJogo);
 
 function iniciarJogo() {
     atual = 0
-    telaInicial.computedStyleMap.display = 'nome';
+    telaInicial.style.display = 'nome';
     caixaPerguntas.classList.remove(".mostrar");
     caixaAlternativas.classList.remove(".mostrar");
     caixaResultado.classList.remove(".mostrar");
