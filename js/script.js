@@ -37,7 +37,14 @@ function mostraPergunta() {
     mostraAlternativas();
 }
 
-function mostraAlternativas() {}
+function mostraAlternativas(){
+    for(const alternativa of perguntaAtual.alternativas){
+        const botaoAlternativas = document.createElement("button");
+        botaoAlternativas.textContent = alternativa.texto;
+        botaoAlternativas.addEventListener("click", () => respostaSelecionada(alternativa));
+        caixaAlternativas.appendChild(botaoAlternativas);
+    }
+}
 
 function mostraResultado() {
   caixaPerguntas.textContent = `Após tudo isso, ${nome} descobriu que`;
