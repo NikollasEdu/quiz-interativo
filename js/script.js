@@ -59,17 +59,17 @@ function respostaSelecionada(opcaoSelecionada){
 }
 
 function mostraResultado(){
-  caixaPerguntas.textContent = `Após tudo isso, ${nome} descobriu que`;
-  textoResultado.textContent = historiaFinal;
-  caixaAlternativas.textContent = "";
-  caixaResultado.classList.add(".mostrar");
-  botaoJogarNovamente.addEventListener("click", jogarNovamente);
+    caixaPerguntas.textContent = `Após tudo isso, ${nome} descobriu que`;
+    textoResultado.textContent = historiaFinal;
+    caixaAlternativas.textContent = "";
+    caixaResultado.classList.add(".mostrar");
+    botaoJogarNovamente.addEventListener("click", jogarNovamente);
 }
 
 function jogarNovamente(){
     atual = 0;
     historiaFinal = "";
-    caixaResultado.classlist.remove("mostrar);
+    caixaResultado.classList.remove("mostrar);
     mostraPergunta();
 }
 
