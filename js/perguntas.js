@@ -1,19 +1,20 @@
-const perguntas = [
-  {
-    enunciado: "pergunta 1",
-    alternativas: [
-      {
-        texto: "nike",
-        afirmacao: [
-          "você tem bom gosto",
-          "afirmação 2"
-        ],
-      },
-      {
-        texto: "adidas",
-        afirmacao: [
-          "você é vaiado",
-          "você não sabe escolher"
+export const perguntas = [
+   {
+        enunciado: "pergunta 1",
+        alternativas: [
+             {
+                texto: "nike",
+                afirmacao: [
+                    "você tem bom gosto",
+                    "afirmação 2"
+                ],
+                proxima: 1,
+           },
+           {
+                texto: "adidas",
+                afirmacao: [
+                    "você é vaiado",
+                    "você não sabe escolher"
         ],
       }
     ]
