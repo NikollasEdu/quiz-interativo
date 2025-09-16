@@ -62,14 +62,14 @@ function mostraResultado(){
     caixaPerguntas.textContent = `Após tudo isso, ${nome} descobriu que`;
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
-    caixaResultado.classList.add(".mostrar");
+    caixaResultado.classList.add("mostrar");
     botaoJogarNovamente.addEventListener("click", jogarNovamente);
 }
 
 function jogarNovamente(){
     atual = 0;
     historiaFinal = "";
-    caixaResultado.classList.remove("mostrar);
+    caixaResultado.classList.remove("mostrar");
     mostraPergunta();
 }
 
