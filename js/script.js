@@ -79,6 +79,3 @@ function substituiNome() {
     }
 }
 substituiNome();
-}
-
-function jogarNovamente() {}
