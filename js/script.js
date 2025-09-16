@@ -46,19 +46,19 @@ function mostraAlternativas(){
     }
 }
 
-function respostasSelecionada(opcaoSelecionado){
+function respostasSelecionada(opcaoSelecionada){
     const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
     historiaFinal += afirmacoes + " ";
-    if(opcaoSelecionada.proxima !== undefined) {
-        atual = opcaoSelecionada.proxima;
-    }else {
+   if(opcaoSelecionada.proxima !== undefined) {
+       atual = opcaoSelecionada.proxima;
+   }else {
         mostraResultado();
         return;
-    }
+   }
     mostraPergunta();
 }
 
-function mostraResultado() {
+function mostraResultado(){
   caixaPerguntas.textContent = `Após tudo isso, ${nome} descobriu que`;
   textoResultado.textContent = historiaFinal;
   caixaAlternativas.textContent = "";
