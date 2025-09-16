@@ -15,26 +15,29 @@ export const perguntas = [
                 afirmacao: [
                     "você é vaiado",
                     "você não sabe escolher"
-        ],
-      }
-    ]
-  },
-  {
-    enunciado: "pergunta 2",
-    alternativas: [
-      {
-        texto: "nike",
-        afirmacao: [
-          "você tem bom gosto",
-          "afirmação 2"
-        ],
-      },
-      {
-        texto: "adidas",
-        afirmacao: [
-          "você é vaiado",
-          "você não sabe escolher"
-        ],
+                ],
+                proxima: 1;
+            }
+         ]
+     },
+     {
+         enunciado: "pergunta 2",
+         alternativas: [
+             {
+                 texto: "nike",
+                 afirmacao: [
+                     "você tem bom gosto",
+                     "afirmação 2"
+                 ],
+                 proxima: 2;
+            },
+            {
+                 texto: "adidas",
+                 afirmacao: [
+                     "você é vaiado",
+                     "você não sabe escolher"
+                 ],
+                proxima: 3.
       }
     ]
   },
