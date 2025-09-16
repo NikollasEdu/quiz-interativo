@@ -16,7 +16,7 @@ export const perguntas = [
                     "você é vaiado",
                     "você não sabe escolher"
                 ],
-                proxima: 1;
+                proxima: 1,
             }
          ]
      },
@@ -29,7 +29,7 @@ export const perguntas = [
                      "você tem bom gosto",
                      "afirmação 2"
                  ],
-                 proxima: 2;
+                 proxima: 2,
             },
             {
                  texto: "adidas",
@@ -37,7 +37,7 @@ export const perguntas = [
                      "você é vaiado",
                      "você não sabe escolher"
                  ],
-                proxima: 3.
+                proxima: 2,
       }
     ]
   },
