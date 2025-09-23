@@ -50,6 +50,7 @@ const perguntas = [
           "você tem bom gosto",
           "afirmação 2"
         ],
+          proxima: 3,
       },
       {
         texto: "adidas",
@@ -57,6 +58,7 @@ const perguntas = [
           "você é vaiado",
           "você não sabe escolher"
         ],
+          proxima 3,
       }
     ]
   },
@@ -69,6 +71,7 @@ const perguntas = [
           "você tem bom gosto",
           "afirmação 2"
         ],
+          proxima: 4,
       },
       {
         texto: "adidas",
@@ -76,6 +79,7 @@ const perguntas = [
           "você é vaiado",
           "você não sabe escolher"
         ],
+          proxima: 4,
       }
     ]
   },
@@ -100,8 +104,14 @@ const perguntas = [
   }
 ]
 
-import {aleatorio, nome} from './aleatorio.js';
-import {perguntas} from './perguntas.js';
+const nomes = ["Wesley", "Jucisvaldo", "Tonho", "Cleide", "Marcos", "Virginia"];
+
+export function aleatorio (lista){
+    const posicao = Math.floor(Math.random()* lista.length);
+    return lista[posicao];
+}
+
+const nome = aleatorio(nomes)
 
 const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
