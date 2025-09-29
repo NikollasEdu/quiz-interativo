@@ -1,3 +1,4 @@
+
 const perguntas = [
     {
         enunciado: "pergunta 1",
@@ -104,6 +105,7 @@ const perguntas = [
   }
 ]
 
+
 const nomes = ["Wesley", "Jucisvaldo", "Tonho", "Cleide", "Marcos", "Virginia"];
 
 export function aleatorio (lista){
@@ -112,6 +114,8 @@ export function aleatorio (lista){
 }
 
 const nome = aleatorio(nomes)
+
+
 
 const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
